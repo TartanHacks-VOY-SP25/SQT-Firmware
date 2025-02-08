@@ -1,7 +1,6 @@
 # SQT - Shipping Quality Tracker
 
 ![Project Image](SQT.png)  
-*Replace the above with an actual image path once available.*
 
 ## Overview
 SQT is a hardware device developed for the **Tartanhacks Spring 2025 Hackathon**. It is designed to be placed inside shipping containers to monitor and assess the handling practices of cargo companies. By tracking environmental and motion data, SQT helps ensure that shipments are handled with care.
