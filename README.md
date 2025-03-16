@@ -3,10 +3,11 @@
 ![Project Image](SQT.png)  
 
 ## Overview
-SQT is a hardware device developed for the **Tartanhacks Spring 2025 Hackathon**. It is designed to be placed inside shipping containers to monitor and assess the handling practices of cargo companies. By tracking environmental and motion data, SQT helps ensure that shipments are handled with care.
+SQT is a hardware device developed for the **Berkeley XRPL 2025 Hackathon**. It is designed to be placed inside packages to monitor and assess the handling practices of the courier. By tracking environmental and motion data, SQT helps ensure that deliveries are handled with care.
 
 ## Features
 - **OLED Display**: Provides real-time status updates.
+- **Geolocation**: Uses Google Cloud's Geolocation API to determine longitude/latitude by scanning nearby WiFi networks.
 - **IMU (Inertial Measurement Unit)**: Detects movement and potential mishandling.
 - **Temperature & Humidity Sensor**: Monitors environmental conditions.
 - **Battery Powered**: Designed for portability and long-duration operation.
@@ -14,6 +15,7 @@ SQT is a hardware device developed for the **Tartanhacks Spring 2025 Hackathon**
 
 ## Technologies Used
 - **ESP-IDF** (Espressif IoT Development Framework)
+- **Google Cloud** (Geolocation API)
 - **FreeRTOS** (Real-Time Operating System)
 - **Embedded C**
 - **Hardware Sensors & OLED Display**
@@ -39,11 +41,7 @@ SQT is a hardware device developed for the **Tartanhacks Spring 2025 Hackathon**
    ```
 
 ## Usage
-- Place the SQT device inside a shipping container.
+- Place the SQT device inside a package.
 - Data is collected and displayed on the OLED screen.
 - Retrieve logs via serial output for further analysis.
-
-## Future Enhancements
-- Cloud integration for remote monitoring
-- AI-based anomaly detection for mishandling events
 
