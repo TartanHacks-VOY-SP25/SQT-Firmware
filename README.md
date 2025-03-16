@@ -5,7 +5,7 @@
 ## Overview
 SQT is a hardware device developed for the **Berkeley XRPL 2025 Hackathon**. It is designed to be placed inside packages to monitor and assess the handling practices of the courier. By tracking environmental and motion data, SQT helps ensure that deliveries are handled with care.
 
-Note: For a detailed repo with a full commit history, please see ![[Project Image](https://github.com/anaveo/TartanHacks-S25-Voy-Firmware)]([SQT.png](https://github.com/anaveo/TartanHacks-S25-Voy-Firmware))  
+Note: For a detailed repo with a full commit history, please see ![https://github.com/anaveo/TartanHacks-S25-Voy-Firmware](https://github.com/anaveo/TartanHacks-S25-Voy-Firmware)  
 
 ## Features
 - **OLED Display**: Provides real-time status updates.
