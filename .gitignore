@@ -1,0 +1,29 @@
+# Build directories and generated files
+/build/
+/CMakeCache.txt
+/CMakeFiles/
+/CMakeScripts/
+/ninja-*
+/*.cmake
+*.elf
+*.map
+*.bin
+*.img
+*.out
+
+# Private configuration (do not commit sensitive API keys)
+private_config.h
+
+# SDK configuration backups (if generated)
+sdkconfig.old
+sdkconfig.defaults
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
